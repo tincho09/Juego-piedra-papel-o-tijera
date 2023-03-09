@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.titulo{
+    margin-top: 0;
+    font-size: 7rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.menu-juego{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-eleccion{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.menu-resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 8rem;
+    font-size: 2rem;
+    border: solid black 0.3rem;
+}
+.resultado-jugador{
+    margin-top: 1rem;
+    font-size: 2rem;
+    
+}
+.resultado-pc{
+    font-size: 2rem;
+    
+}
+span{
+    font-size: 2rem;
+    color: red;
+}
+.menu-referencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-referencias{
+    margin-bottom: 1.5rem;
+}
+.menu-referencias p{
+    font-size: 2.3rem;
+}
+
+.sector-reinicio{
+    display: flex;
+    justify-content: center;
+}
+.btn-reiniciar{
+    width: 20rem;
+    height: 3rem;
+    margin: 1.5rem;
+}

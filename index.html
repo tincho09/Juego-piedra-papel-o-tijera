@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piedra-papel-tijera</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo"> PIEDRA PAPEL O TIJERA</h1>
+    </header>
+    <main>
+        <section class="menu-juego">
+            <h2 class="titulo-juego">Elije una opcion</h2>
+        </section>
+        <section class="menu-eleccion">
+            <button type="button" class="boton-piedra">
+                <img src="./Assets/piedra.jpg" alt="una piedra">
+            </button>
+            <button type="button" class="boton-papel">
+                <img src="./Assets/papel.jpg" alt="un papel">
+            </button>
+            <button type="button" class="boton-tijera">
+                <img src="./Assets/tijera.jpg" alt="una tijera">
+            </button>
+        </section>
+        <section class="menu-resultado">
+            <h2>Resultado</h2>
+            <p class="resultado">
+                <p class="resultado-jugador">Jugador : <span class="res-jugador">0</span> </p>
+                <p class="resultado-pc">PC : <span class="res-pc">0</span> </p>
+            </p>
+        </section>
+        <section class="sector-reinicio">
+            <button type="button" class="btn-reiniciar">Reiniciar juego</button>
+        </section>
+        
+    </main>
+    <footer>
+        <section class="menu-referencias">
+            <h2 class="titulo-referencias">Referencias</h2>
+            <p>La piedra le gana la tijera y pierde con el papel</p>
+            <p>El papel le gana a la piedra y pierde con la tijera</p>
+            <p>La tijera le gana al papel y pierde con la piedra</p>
+        </section>
+    </footer>
+</body>
+    <script src="./piedra-papel-tijera.js"></script>
+</html>
